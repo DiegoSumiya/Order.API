@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "0pTmAiG/8l0duqDydHH+KssxqmobCLquy4tEDpJHhU+BNEN9D0EoeQ9lkQdPoYoWqXOnTWDnlpvd0sGQ2srVfA==",
+  "dgSpecHash": "it++9oAZKZO178whVBhp1rAejKYx/tXAPNl8rfez8Tyau3h5J6x6oeF00415IPLsgKVifkKCLYeHwyRgrXyY1Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Diego\\Projects\\Order.Api\\Order.Application\\Order.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Diego\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\Diego\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
+    "C:\\Users\\Diego\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
