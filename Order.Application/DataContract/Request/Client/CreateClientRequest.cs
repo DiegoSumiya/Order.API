@@ -2,7 +2,7 @@
 
 namespace Order.Application.DataContract.Request
 {
-    public sealed class ClientRequest 
+    public sealed class CreateClientRequest 
     {
         public string Name { get; set; }
         public string Email { get; set; }

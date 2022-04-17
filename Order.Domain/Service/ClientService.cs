@@ -87,6 +87,22 @@ namespace Order.Domain.Service
             return response;
         }
 
+        public async Task<Response<List<ClientModel>>> ListByFilterAsync(string clientId = null, string name = null)
+        {
+            var response = new Response<List<ClientModel>>();
+
+            if(!string.IsNullOrWhiteSpace(clientId))
+            {
+                response.Report.Add(Report.Create($"Client {clientId} not exists!"));
+                return response;
+            }
+
+            var data = await _clientRepository.ListByFilterAsync(clientId, name);
+            response.Data = data;
+
+            return response;
+        }
+        
         public async Task<Response> UpdateAsync(ClientModel client)
         {
             var response = new Response();
